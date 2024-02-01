@@ -25,10 +25,8 @@ git clone [URL to the repository]
 Install the required Python libraries using:
 
 ```bash
-pip install numpy opencv-python pillow psycopg2
+pip install numpy opencv-python pillow psycopg2 imgbeddings
 ```
-
-(Replace with the correct command if your setup requires a different way to install Python packages.)
 
 ## Configuration
 Before running the script, make sure to update the following in the `main.py` file:
@@ -47,6 +45,9 @@ The script will process the specified image, detect faces, generate embeddings, 
 
 ## Troubleshooting
 Ensure all dependencies are correctly installed and that the PostgreSQL server is running and accessible. Check the paths to the image and Haar Cascade file in the script.
+
+## Face Recognition Dataset
+haarcascade_frontalface_default.xml file comes from:[Link](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
 
 ## License
 
