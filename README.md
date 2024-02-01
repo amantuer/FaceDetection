@@ -51,7 +51,7 @@ haarcascade_frontalface_default.xml file comes from:[Link](https://github.com/ki
 
 ## License
 
-This project is licensed under the [LICENSE NAME] License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT](LICENSE.md) License.
 
 
 

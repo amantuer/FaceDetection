@@ -65,7 +65,7 @@ def find_most_similar_face(embedding, db_connection_string):
 
 def main():
     haar_cascade_file = "haarcascade_frontalface_default.xml"
-    db_connection_string = "<SERVICE_URI>"  # Replace with your database connection string
+    db_connection_string = "postgres://avnadmin:AVNS_RaIabVoQwxxuMQmKVWR@pg-31120d93-faces-db.a.aivencloud.com:16155/defaultdb?sslmode=require"  # Replace with your database connection string
 
     # Process the first image for learning and storing faces
     learning_image_file = "musk_friends.png"  # Replace with your learning image file
